@@ -1,0 +1,7 @@
+<div class="p-4 bg-white shadow-md rounded-lg">
+    <h2 class="text-xl font-bold mb-4">Agregar Tarea</h2>
+    <input [(ngModel)]="title" class="w-full p-2 border rounded-md" placeholder="Título">
+    <textarea [(ngModel)]="description" class="w-full p-2 border rounded-md mt-2" placeholder="Descripción"></textarea>
+    <button (click)="addTask()" class="mt-4 px-6 py-2 bg-blue-500 text-white rounded-md">➕ Agregar</button>
+  </div>
+  
